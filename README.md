@@ -4,6 +4,7 @@ KiiCould Android SDKをPowerMockをつかってテストする
 **SampleApiCalcMockTest**  
 PowerMockの動作確認用。staticクラスもspy動作確認済み
 
+**■現状の問題点**  
 **SampleApiGetCouponMockTest**  
 ２つのテストを行いたいが以下のエラーが出て、うまくテストできない。
 
