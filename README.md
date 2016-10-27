@@ -20,7 +20,24 @@ KiiCouldサーバーのDataBrowserから
 }
 
 保存後、オブジェクトの "_id" を、**SampleApi.targetCouponId に転記**しておく
-----
+----  
+**■テストの実行
+  ##■テスト1 実際にAndroid上でKiiを動かしてデータを取得するテスト** 
+  
+  SampleApiInstrumentedTestをAndroidJUnit4で実行する
+  動作確認済み。
+  ----  
+  ##■テスト２ ローカルのJVMで単純なクラスをPowerMockにてテストを行う
+
+  SampleApiCalcMockTestをPowerMockRunnerで実行する
+  動作確認済み。
+  ----  
+  
+  ##■テスト３ ローカルのJVMでPowerMockを使ってにて、テストを行う
+  
+  SampleApiCalcMockTestをPowerMockRunnerで実行する
+  **現在エラーがでる**  
+----  
 
 **■テストクラス**  
 **SampleApiCalcMockTest**  
