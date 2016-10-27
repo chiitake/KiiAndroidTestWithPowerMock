@@ -1,5 +1,5 @@
 # KiiAndroidTestWithPowerMock
-KiiCould Android SDKをPowerMockをつかってテストする
+**目的：　KiiCould Android SDKをPowerMockをつかってテストする
 
 **■環境**  
 Android 4.0以降
