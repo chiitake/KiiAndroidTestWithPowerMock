@@ -2,23 +2,23 @@
 **目的：　KiiCould Android SDKをPowerMockをつかってテストする
 
 **■環境**  
-Android 4.0以降
-MultiIndexを使用
+Android 4.0以降  
+MultiIndexを使用  
 
 **■事前準備　テストデータを入力**  
 まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。  
 
 ----
-KiiCouldサーバーのDataBrowserから
+KiiCouldサーバーのDataBrowserから  
 **[アプリケーションスコープ**でバケット"coupon_list"を作成  
-その中に、オブジェクトを1つ作成
-{
-  "couponNo": "1024",
-  "title": "割引クーポン",
-  "content": "ランチのみ00円割引"
-}
+その中に、オブジェクトを1つ作成  
+{  
+  "couponNo": "1024",  
+  "title": "割引クーポン",  
+  "content": "ランチのみ100円割引"  
+}  
 
-保存後、オブジェクトの "_id" を、**SampleApi.targetCouponId に転記**しておく
+保存後、オブジェクトの "_id" を、**SampleApi.targetCouponId に転記**しておく  
 ----  
 **■テストの実行
   ##■テスト1 実際にAndroid上でKiiを動かしてデータを取得するテスト** 
