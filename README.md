@@ -7,7 +7,6 @@ MultiIndexを使用
 
 **■事前準備　テストデータを入力**  
 まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。  
-（kiiAccout.propertiesファイルに書いても良い)
 
 ----
 KiiCouldサーバーのDataBrowserから
@@ -38,7 +37,7 @@ KiiCouldサーバーのDataBrowserから
   SampleApiCalcMockTestをPowerMockRunnerで実行する
   **現在エラーがでる**  
 ----  
-
+  
 **■テストクラス**  
 **SampleApiCalcMockTest**  
 PowerMockの動作確認用。staticクラスもspy動作確認済み
