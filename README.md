@@ -5,9 +5,21 @@ KiiCould Android SDKをPowerMockをつかってテストする
 Android 4.0以降
 MultiIndexを使用
 
-**■テスト方法**  
+**■事前準備　テストデータを入力**  
 まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。
 （kiiAccout.propertiesファイルに書いても良い)
+----
+KiiCouldサーバーのDataBrowserから
+・[アプリケーションスコープ]でバケット"coupon_list"を作成
+・その中に、オブジェクトを1つ作成
+{
+  "couponNo": "1024",
+  "title": "割引クーポン",
+  "content": "ランチのみ00円割引"
+}
+
+保存後、オブジェクトの "_id" を、**SampleApi.targetCouponId に転記**しておく
+----
 
 **■テストクラス**  
 **SampleApiCalcMockTest**  
