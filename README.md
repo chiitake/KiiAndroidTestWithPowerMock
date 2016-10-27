@@ -1,6 +1,11 @@
 # KiiAndroidTestWithPowerMock
 KiiCould Android SDKをPowerMockをつかってテストする
 
+**■環境**  
+Android 4.0以降
+MultiIndexを使用
+
+**■テストクラス**  
 **SampleApiCalcMockTest**  
 PowerMockの動作確認用。staticクラスもspy動作確認済み
 
