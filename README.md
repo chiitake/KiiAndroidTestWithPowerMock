@@ -1,0 +1,2 @@
+# KiiAndroidTestWithPowerMock
+KiiCould Android SDKをPowerMockをつかってテストする
