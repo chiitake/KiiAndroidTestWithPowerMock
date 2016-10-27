@@ -6,12 +6,13 @@ Android 4.0以降
 MultiIndexを使用
 
 **■事前準備　テストデータを入力**  
-まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。
+まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。  
 （kiiAccout.propertiesファイルに書いても良い)
+
 ----
 KiiCouldサーバーのDataBrowserから
-・[アプリケーションスコープ]でバケット"coupon_list"を作成
-・その中に、オブジェクトを1つ作成
+**[アプリケーションスコープ**でバケット"coupon_list"を作成  
+その中に、オブジェクトを1つ作成
 {
   "couponNo": "1024",
   "title": "割引クーポン",
