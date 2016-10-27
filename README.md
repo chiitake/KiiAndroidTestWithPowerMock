@@ -5,6 +5,10 @@ KiiCould Android SDKをPowerMockをつかってテストする
 Android 4.0以降
 MultiIndexを使用
 
+**■テスト方法**  
+まずMyApplicationクラスに、テスト用のKiiサーバーのAppId, AppKeyを記述する。
+（kiiAccout.propertiesファイルに書いても良い)
+
 **■テストクラス**  
 **SampleApiCalcMockTest**  
 PowerMockの動作確認用。staticクラスもspy動作確認済み
